@@ -1,0 +1,145 @@
+:root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container{
+  width: 340px;
+  border: 1px solid #d1d1d1;
+  display: block;
+  border-radius: 8px;
+}
+
+.sign-up{
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.sign-up h1{
+  font-size: 40px;
+}
+
+.e-mail,.password, .btn, .pass-forgot, .enter-epu{
+  display: flex;
+  justify-content: center;
+}
+
+.e-mail input::placeholder, .password input::placeholder, .pass-forgot{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.e-mail input, .password input, .enter-epu input{
+  border: 1px solid #a09f9f;
+  padding: 8px 10px 8px 10px;
+  border-radius: 4px;
+  margin-top: 6px;
+  width: 264px;
+  background: #a6a5a51a;
+}
+
+.btn button{
+  border-radius: 12px;
+  margin-top: 16px;
+  padding: 8px 112px;
+  background: #0095f6;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.pass-forgot{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.enter-epu{
+  display: flex;
+  margin-top: 10px;
+}
+
+.enter-epu input{
+  padding: 10px 10px 10px 10px;
+}
+
+.enter-epu input::placeholder{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.code-btn button{
+  padding: 8px 86px;
+}
+
+.reset{
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.reset h1{
+  font-size: 20px;
+}
+
+.statement{
+  font-size: 14px;
+}
+
+.statement p, .OR, .create-acc, .to-login {
+  text-align: center;
+}
+
+.OR{
+  margin-top: 40px;
+}
+.OR span{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.create-acc{
+  margin-top: 20px;
+}
+
+.create-acc span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.to-login{
+  margin-top: 68px;
+  border: 1px solid #d1d1d1;
+  padding: 12px 0px;
+}
+
+.to-login span{
+  font-size: 14px;
+  font-weight: 600;
+}
