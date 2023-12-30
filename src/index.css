@@ -26,8 +26,10 @@ a{
 section{
   display: flex;
   width: 100%;
+  align-items: center;
   justify-content: center;
   margin-top: 40px;
+  flex-direction: column;
 }
 
 .container{
@@ -46,17 +48,17 @@ section{
   font-size: 40px;
 }
 
-.e-mail,.password, .btn, .pass-forgot, .enter-epu{
+.e-mail,.password, .btn, .pass-forgot, .enter-epu, .fullname, .username {
   display: flex;
   justify-content: center;
 }
 
-.e-mail input::placeholder, .password input::placeholder, .pass-forgot{
+.e-mail input::placeholder, .password input::placeholder, .pass-forgot::placeholder, .fullname input::placeholder, .username input::placeholder{
   font-size: 12px;
   font-weight: 400;
 }
 
-.e-mail input, .password input, .enter-epu input{
+.e-mail input, .password input, .enter-epu input, .fullname input, .username input {
   border: 1px solid #a09f9f;
   padding: 8px 10px 8px 10px;
   border-radius: 4px;
@@ -68,7 +70,7 @@ section{
 .btn button{
   border-radius: 12px;
   margin-top: 16px;
-  padding: 8px 112px;
+  padding: 8px 110px;
   background: #0095f6;
   font-size: 14px;
   color: #fff;
@@ -142,4 +144,31 @@ section{
 .to-login span{
   font-size: 14px;
   font-weight: 600;
+}
+
+.sign-btn button{
+  padding: 8px 108px;
+}
+
+.sign-btn{
+  margin: 20px;
+}
+
+.login-box{
+  width: 340px;
+  border: 1px solid #d1d1d1;
+  display: block;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px 0px;
+}
+
+.login-box span{
+  font-size: 14px;
+}
+
+.login-box span span a{
+  color: #0095f6;
+  font-weight: 500;
 }

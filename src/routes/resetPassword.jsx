@@ -7,7 +7,7 @@ function ResetPassword() {
       <div className="container">
         <form>
           <div className="reset">
-            <h1>Trouble logging in?</h1>
+            <h1>Trouble signing in?</h1>
           </div>
 
           <div className="statement">
@@ -24,13 +24,13 @@ function ResetPassword() {
 
           <div className="create-acc">
             <span>
-              <Link to="/resetPassword">Create new account</Link>
+              <Link to="/Signup">Create new account</Link>
             </span>
           </div>
 
           <div className="to-login">
             <span>
-              <Link to="/resetPassword">Back to login</Link>
+              <Link to="/">Back to Signin</Link>
             </span>
           </div>
         </form>

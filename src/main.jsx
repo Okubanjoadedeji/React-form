@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ResetPassword from "./routes/resetPassword";
+import Signup from './routes/Signup';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/resetPassword",
     element: <ResetPassword />,
+  },
+  {
+    path: "/Signup",
+    element: <Signup />,
   },
 ]);
 

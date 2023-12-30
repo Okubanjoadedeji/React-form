@@ -5,7 +5,7 @@ export default function Root() {
     <section>
       <div className="container">
         <div className="sign-up">
-          <h1>Log In</h1>
+          <h1>Sign In</h1>
         </div>
         <div className="form-container">
           <form>
@@ -26,7 +26,7 @@ export default function Root() {
             </div>
 
             <div className="btn">
-              <button>Log in</button>
+              <button>Sign in</button>
             </div>
 
             <div className="pass-forgot">
